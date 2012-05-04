@@ -1,0 +1,267 @@
+ul, ol, li {
+    margin: 0;
+    padding: 0;
+    list-style: none
+}
+
+p {
+    margin: 0 11px 2em 11px;
+    padding: 0
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font: 12px / 18px "Lucida Sans Unicode", "Lucida Grande", Lucida, Arial, Helvetica, sans serif;
+    line-height: 1.8em;
+    color: #999;
+    background: url(images/PhotoGray_browser_bg-2.jpg)
+}
+
+a:link,
+a:visited {
+    color: #FFF;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #BBB;
+    text-decoration: none;
+}
+
+a:active {
+    color: #FFF;
+}
+
+h1,
+h2,
+h3 {
+    font: 1.9em italic Georgia, "Times New Roman", Times, serif;
+    color: white;
+    margin: 0;
+    padding: 0;
+    clear: both
+}
+
+h1 {
+    margin-bottom: 5px
+}
+
+h2 {
+    font: bold 1.4em "Lucida Sans Unicode", "Lucida Grande", Lucida, Arial, Helvetica, sans serif;
+    padding-top: 1em;
+}
+
+h3 {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Lucida, Arial, Helvetica, sans serif;
+    font-size: 1em;
+    margin: 1.25em 0 0;
+    font-weight: bold;
+    padding-left: 1em;
+    border-bottom: 1px solid #999;
+    width: 25%;
+    text-align: left;
+}
+
+#footer {
+    margin: 6em 10px 20px 10px;
+    color: #666;
+    font-size: 0.8em;
+    text-align: center;
+    line-height: 1.2em;
+    float: left;
+    clear: both;
+    width: 100%;
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+.clearfix {
+    display: inline-block;
+}
+
+html[xmlns] .clearfix {
+    display: block;
+}
+
+* html .clearfix {
+    height: 1%;
+}
+
+#menu {
+    background: url(images/PhotoGray_nav_bg.png) repeat scroll;
+    height: 2em;
+    width: 100%;
+    border-top: #DDD 1px solid;
+    border-bottom: #DDD 1px solid;
+    list-style: none;
+    margin-top: 0.25em;
+    font-variant: small-caps;
+    font-size: 1.25em
+}
+
+#menu li {
+    float: left;
+    width: 33%;
+    margin-top:0.25em;
+}
+
+#content {
+    background: rgb(255, 255, 255) url(images/PhotoGray_bg_c-1.jpg) repeat scroll top left;
+    margin: 4em auto;
+    -moz-border-radius: 7px; 
+    -webkit-border-radius:7px; 
+    border-radius: 7px;         
+    -webkit-border-top-left-radius: 7px; /*  Chrome */ 
+    -webkit-border-bottom-left-radius: 7px; /*  Chrome */ 
+    -webkit-border-top-right-radius: 7px; /*  Chrome */ 
+    -webkit-border-bottom-right-radius: 7px; /*  Chrome */ 
+    width: 400px;
+    padding-bottom: 2em;
+    color: #DDD;
+}
+
+#header {
+    margin-top: 1em;
+    margin-bottom: 0.25em;
+    float: right;
+    margin-right: 1em;
+}
+
+.clear {
+    clear: both;
+}
+
+
+#mask{
+    width:400px;
+    overflow : hidden;
+    position:relative;
+}
+
+#mask #scroll{
+    width:1200px;
+    position:relative;
+}
+.section{
+    float:left;
+    width:400px;
+    position:relative;
+}
+
+#picture {
+    background: rgb(255, 255, 255) url(images/Avatar.png) no-repeat scroll top left;
+    width: 64px;
+    height: 64px;
+    border: 2px solid #DDD;
+    float: left;
+    margin-top: -16px;
+    margin-left: -16px;
+}
+
+.lastfm {
+    background: url(images/lastfm.png) no-repeat top right;
+}
+.twitter{
+    background: url(images/twitter.png) no-repeat top right;
+}
+.linkedin{
+    background: url(images/linkedin.png) no-repeat top right;
+}
+.viadeo{
+    background: url(images/viadeo.png) no-repeat top right;
+}
+.facebook{
+    background: url(images/facebook.png) no-repeat top right;
+}
+.flickr{
+    background: url(images/flickr.png) no-repeat top right;
+}
+.delicious{
+    background: url(images/delicious.png) no-repeat top right;
+}
+.netvibes{
+    background: url(images/netvibes.png) no-repeat top right;
+}
+.blog{
+    background: url(images/blogger.png) no-repeat top right;
+}
+.googleplus{
+    background: url(images/googleplus.png) no-repeat top right;
+}
+.github{
+    background: url(images/github.png) no-repeat top right;
+}
+
+#networks li {
+    text-align: left;
+    margin: 3px 2em;
+    border-bottom: 1px solid #DDD;
+    height: 48px;
+    opacity:0.8;
+}
+#networks li:hover{
+    opacity:1;
+}
+#about li:hover > a, #networks li:hover > a{
+    color:#BBB;
+}
+#about li:hover, #networks li:hover {
+    cursor:pointer;
+}
+#about li{
+    text-align:left;
+    margin: 0 2em;
+    padding-left:4em;
+}
+#about ul{
+    margin-top:1em;
+}
+.selected{
+}
+.intellij{
+    background: url(images/idea.png) no-repeat center left;
+}
+.jrebel{
+    background: url(images/jrebel.png) no-repeat center left;
+}
+.java{
+    background: url(images/java.png) no-repeat center left;
+}
+.srmvision{
+    background: url(images/srmvision.ico) no-repeat center left;
+}
+.wicket{
+    background: url(images/wicket.png) no-repeat center left;
+}
+.jenkins{
+    background: url(images/jenkins.png) no-repeat center left;
+}
+.apple{
+    background: url(images/apple.png) no-repeat center left;
+}
+.android{
+    background: url(images/android.png) no-repeat center left;
+}
+.value{
+    display: inline-block;
+    text-align: left;
+    vertical-align: top;
+
+}
+ul.personal li, ul.profesional li{
+    margin:3px 2em;
+    text-align: left;
+}
+ul.personal li strong, ul.profesional li strong{
+    display: inline-block;
+    width:25%;
+}
